@@ -4,7 +4,8 @@ using namespace std;
 int main(){
     int n = 3;
 
-        for (int i = 0; i <= n; i++){
+    // Upper pyramid (same tera code)
+    for (int i = 0; i <= n; i++){
         for(int j = n; j > i; j--){
             cout<<" ";
         }
@@ -16,6 +17,8 @@ int main(){
         }
         cout<<endl;
     }
+
+    // Lower pyramid (added part)
     for (int i = n-1; i >= 0; i--){
         for(int j = n; j > i; j--){
             cout<<" ";
@@ -31,9 +34,3 @@ int main(){
 
     return 0;
 }
-/*  Output: 
-  *
- ***
-*****
- ***
-  *         */
