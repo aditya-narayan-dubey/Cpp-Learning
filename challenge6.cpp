@@ -6,16 +6,16 @@ int main()
     int secret = 18;
     int attempts = 5;
     
-    cout<<"Guess the number Nigaa: ";
+    cout<<"Guess the number: ";
     cin>>guess;
 
     while(guess != secret){
 
         if(guess > secret){
-            cout<<"Think lower Nigga: ";
+            cout<<"Think lower: ";
         }
         else{
-            cout<<"Think higher Nigga: ";
+            cout<<"Think higher: ";
         }
         cin>>guess;
     }
