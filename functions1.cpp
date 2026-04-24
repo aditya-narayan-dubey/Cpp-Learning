@@ -9,5 +9,5 @@ void greet(string name){
 int main(){
     
     greet("Aditya");
-    greet("Aditri");
+    greet("Yourself");
 }
