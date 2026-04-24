@@ -5,13 +5,13 @@ int main()
     int guess;
     int seceret=5;
 
-    cout<<"Guess the number nigga: ";
+    cout<<"Guess the number: ";
     cin>>guess;
 
     while(guess != seceret){
-        cout<<"Try again Nigga u r noob as hell: ";
+        cout<<"Try again: ";
         cin>>guess;
     }
-    cout<<"Nigga u did it 🐷🐷";
+    cout<<"U did it";
     return 0;
 }
